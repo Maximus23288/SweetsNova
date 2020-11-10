@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	margin: 0px;
+}
+
+ul {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: red;
+}
+
+li {
+	float: left;
+}
+
+.li_name {
+	display: block;
+	margin-left: 12%;
+	margin-right: 50%;
+}
+
+a {
+	display: block;
+	padding: 20px;
+	background-color: yellow;
+}
+
+.scroll_1 {
+	display: block;
+	height: 700px;
+}
+
+.scroll_1_name {
+	display: block;
+	background-color: green;
+	width: 60%;
+	height: 20%;
+	margin-left: 30%;
+	margin-right: 10%;
+}
+
+.scroll_1_content {
+	display: flex;
+	width: 100%;
+	height: 80%;
+}
+
+.scroll_1_content_left {
+	display: flex;
+	width: 20%;
+	height: 80%;
+	margin-left: 10%;
+}
+
+.scroll_1_content_right {
+	width: 60%;
+	margin-right: 10%;
+}
+
+.scroll_1_content_right_top {
+	display: flex;
+	width: 80%;
+	height: 40%;
+	margin-left: 10%;
+}
+
+.scroll_1_content_right_down {
+	display: flex;
+	width: 90%;
+	height: 60%;
+}
+
+.scroll_1_content_right_down_1 {
+	display: flex;
+	width: 23%;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.scroll_1_content_right_down_2 {
+	display: flex;
+	width: 23%;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.scroll_1_content_right_down_3 {
+	display: flex;
+	width: 23%;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.scroll_2 {
+	display: block;
+	height: 700px;
+}
+
+.scroll_2_name {
+	display: block;
+	background-color: green;
+	width: 60%;
+	height: 20%;
+	margin-left: 10%;
+	margin-right: 30%;
+}
+
+.scroll_2_content {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	height: 80%;
+}
+
+.scroll_2_content_left {
+	display: flex;
+	width: 20%;
+	height: 80%;
+	margin-right: 10%;
+}
+
+.scroll_2_content_right {
+	width: 60%;
+	margin-left: 10%;
+}
+
+.scroll_2_content_right_top {
+	display: flex;
+	width: 80%;
+	height: 40%;
+	margin-left: 10%;
+}
+
+.scroll_2_content_right_down {
+	display: flex;
+	width: 90%;
+	height: 60%;
+	margin-left: 10%;
+}
+
+.scroll_2_content_right_down_1 {
+	display: flex;
+	width: 23%;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.scroll_2_content_right_down_2 {
+	display: flex;
+	width: 23%;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.scroll_2_content_right_down_3 {
+	display: flex;
+	width: 23%;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+footer {
+	display: block;
+	height: 60px;
+	background-color: darkred;
+}
+
+img {
+	align-content: center;
+	margin: auto;
+}
+
