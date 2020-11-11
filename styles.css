@@ -4,6 +4,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	background-image: url("background.png");
 }
 
 header {
@@ -15,23 +16,51 @@ ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	background-color: red;
+	background-color: palevioletred;
+	position: fixed;
+	width: 100%;
+	
 }
 
 li {
-	float: left;
+	float: right;
 }
 
-.li_name {
+.li_cakes {
+	margin-right: 10%;
+}
+
+/*.li_space {
 	display: block;
-	margin-left: 12%;
-	margin-right: 50%;
+	width: 10%;
+	height: 100%;
+	background-color: blue;
+}	*/
+
+.li_name {
+	margin-left: 10%;
+	float: left;
 }
 
 a {
 	display: block;
 	padding: 20px;
-	background-color: yellow;
+	background-color: palevioletred;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	background-color: indianred;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	padding-top: 10%;
+	color: darkred;
 }
 
 .scroll_1 {
@@ -41,10 +70,9 @@ a {
 
 .scroll_1_name {
 	display: block;
-	background-color: green;
 	width: 60%;
 	height: 20%;
-	margin-left: 30%;
+	margin-left: 37%;
 	margin-right: 10%;
 }
 
@@ -58,12 +86,12 @@ a {
 	display: flex;
 	width: 20%;
 	height: 80%;
-	margin-left: 10%;
+	margin-left: 8%;
 }
 
 .scroll_1_content_right {
 	width: 60%;
-	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .scroll_1_content_right_top {
@@ -71,6 +99,23 @@ a {
 	width: 80%;
 	height: 40%;
 	margin-left: 10%;
+	align-content: center;
+}
+
+.back {
+	position: absolute;
+	
+}
+
+.back_p {
+	margin-left: 0%;
+	font-size: 30px;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	margin-top: 10%;
+	text-align: center;
+	color: black;
 }
 
 .scroll_1_content_right_down {
@@ -113,11 +158,10 @@ a {
 
 .scroll_2_name {
 	display: block;
-	background-color: green;
 	width: 60%;
 	height: 20%;
 	margin-left: 10%;
-	margin-right: 30%;
+	text-align: center;
 }
 
 .scroll_2_content {
@@ -127,33 +171,33 @@ a {
 	height: 80%;
 }
 
-.scroll_2_content_left {
+.scroll_2_content_right {
 	display: flex;
 	width: 20%;
 	height: 80%;
 	margin-right: 10%;
 }
 
-.scroll_2_content_right {
+.scroll_2_content_left {
 	width: 60%;
 	margin-left: 10%;
 }
 
-.scroll_2_content_right_top {
+.scroll_2_content_left_top {
 	display: flex;
 	width: 80%;
 	height: 40%;
 	margin-left: 10%;
 }
 
-.scroll_2_content_right_down {
+.scroll_2_content_left_down {
 	display: flex;
 	width: 90%;
 	height: 60%;
 	margin-left: 10%;
 }
 
-.scroll_2_content_right_down_1 {
+.scroll_2_content_left_down_1 {
 	display: flex;
 	width: 23%;
 	height: 80%;
@@ -162,7 +206,7 @@ a {
 	margin-top: 3%;
 }
 
-.scroll_2_content_right_down_2 {
+.scroll_2_content_left_down_2 {
 	display: flex;
 	width: 23%;
 	height: 80%;
@@ -171,7 +215,7 @@ a {
 	margin-top: 3%;
 }
 
-.scroll_2_content_right_down_3 {
+.scroll_2_content_left_down_3 {
 	display: flex;
 	width: 23%;
 	height: 80%;
@@ -183,7 +227,7 @@ a {
 footer {
 	display: block;
 	height: 60px;
-	background-color: darkred;
+	background-color: palevioletred;
 }
 
 img {
