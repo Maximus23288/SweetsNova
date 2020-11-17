@@ -244,3 +244,18 @@ img {
 	margin: auto;
 }
 
+.down {
+	align-content: center;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+	background-color: palevioletred;
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+	padding-top: 1.2%;
+}
+
